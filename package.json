@@ -1,0 +1,38 @@
+{
+  "name": "vuepress-lovely-plugins",
+  "version": "0.0.1",
+  "description": "Add some lovely plugins in your vuepress!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SigureMo/vuepress-lovely-plugins.git"
+  },
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "lovely"
+  ],
+  "files": [
+    "package.json",
+    "README.md"
+  ],
+  "author": "SigureMo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SigureMo/vuepress-lovely-plugins/issues"
+  },
+  "homepage": "https://github.com/SigureMo/vuepress-lovely-plugin#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "i": "bash install.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-cursor-effects": "^0.0.1",
+    "vuepress-plugin-dynamic-title": "^0.0.1",
+    "vuepress-plugin-ribbon": "^0.0.6"
+  }
+}
