@@ -109,6 +109,29 @@ module.exports = {
 }
 ```
 
+## vuepress-plugin-go-top
+
+[GitHub](https://github.com/SigureMo/vuepress-plugin-go-top)
+
+> :feet: Click such a lovely cat to back to top!
+
+### Install
+
+``` bash
+yarn add vuepress-plugin-go-top -D
+# or use npm
+npm i vuepress-plugin-go-top -D
+```
+
+### Usage
+
+``` javascript
+module.exports = {
+  plugins: ['go-top']
+}
+```
+
 # Thanks
 
 - [diygod.me](https://diygod.me/)
+- [vuepress-reco](https://github.com/vuepress-reco)
