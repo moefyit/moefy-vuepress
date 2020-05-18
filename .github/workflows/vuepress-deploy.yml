@@ -1,0 +1,23 @@
+name: Vuepress Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+          submodules: true
+      - uses: actions/setup-node@master
+      - name: deploy
+        run: |
+          npm install yarn
+          yarn
+          yarn deploy $ACCESS_TOKEN
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

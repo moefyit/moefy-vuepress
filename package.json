@@ -24,16 +24,18 @@
   "homepage": "https://github.com/SigureMo/vuepress-lovely-plugin#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "i": "bash install.sh"
+    "docs:dev": "bash scripts/collect-docs.sh && vuepress dev docs",
+    "docs:build": "bash scripts/collect-docs.sh && vuepress build docs",
+    "deploy": "bash scripts/deploy.sh"
   },
   "devDependencies": {
-    "vuepress": "^1.2.0",
+    "vuepress": "^1.5.0"
+  },
+  "dependencies": {
     "vuepress-plugin-cursor-effects": "^0.0.4",
     "vuepress-plugin-dynamic-title": "^0.0.5",
-    "vuepress-plugin-go-top": "^0.0.1",
+    "vuepress-plugin-go-top": "^1.0.1",
+    "vuepress-plugin-meting": "^0.0.4",
     "vuepress-plugin-ribbon": "^1.0.0"
   }
 }
