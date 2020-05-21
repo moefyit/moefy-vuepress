@@ -1,15 +1,15 @@
 [submodule "packages/vuepress-plugin-ribbon"]
 	path = packages/vuepress-plugin-ribbon
-	url = git@github.com:SigureMo/vuepress-plugin-ribbon.git
+	url = git@github.com:moefyit/vuepress-plugin-ribbon.git
 [submodule "packages/vuepress-plugin-cursor-effects"]
 	path = packages/vuepress-plugin-cursor-effects
-	url = https://github.com/SigureMo/vuepress-plugin-cursor-effects
+	url = https://github.com/moefyit/vuepress-plugin-cursor-effects
 [submodule "packages/vuepress-plugin-dynamic-title"]
 	path = packages/vuepress-plugin-dynamic-title
-	url = https://github.com/SigureMo/vuepress-plugin-dynamic-title
+	url = https://github.com/moefyit/vuepress-plugin-dynamic-title
 [submodule "packages/vuepress-plugin-meting"]
 	path = packages/vuepress-plugin-meting
-	url = https://github.com/SigureMo/vuepress-plugin-meting
+	url = https://github.com/moefyit/vuepress-plugin-meting
 [submodule "packages/vuepress-plugin-go-top"]
 	path = packages/vuepress-plugin-go-top
-	url = git@github.com:SigureMo/vuepress-plugin-go-top.git
+	url = git@github.com:moefyit/vuepress-plugin-go-top.git
