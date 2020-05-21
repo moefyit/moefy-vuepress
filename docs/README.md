@@ -1,3 +1,3 @@
-# Vuepress-Lovely-Plugins
+# Moefy Vuepress
 
-喵喵喵～
+让你的 Vuepress 变得更加可爱~

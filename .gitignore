@@ -12,3 +12,6 @@ dist
 
 # docs
 docs/packages/
+
+# yarn
+yarn-error.log

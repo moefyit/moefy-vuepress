@@ -1,11 +1,11 @@
 {
-  "name": "vuepress-lovely-plugins",
+  "name": "moefy-vuepress",
   "version": "0.0.1",
   "description": "Add some lovely plugins in your vuepress!",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/SigureMo/vuepress-lovely-plugins.git"
+    "url": "git+ssh://git@github.com/moefyit/moefy-vuepress.git"
   },
   "keywords": [
     "vuepress",
@@ -19,9 +19,9 @@
   "author": "SigureMo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SigureMo/vuepress-lovely-plugins/issues"
+    "url": "https://github.com/moefyit/moefy-vuepress/issues"
   },
-  "homepage": "https://github.com/SigureMo/vuepress-lovely-plugin#readme",
+  "homepage": "https://github.com/moefyit/vuepress-lovely-plugin#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "bash scripts/collect-docs.sh && vuepress dev docs",
@@ -32,8 +32,8 @@
     "vuepress": "^1.5.0"
   },
   "dependencies": {
-    "vuepress-plugin-cursor-effects": "^0.0.4",
-    "vuepress-plugin-dynamic-title": "^0.0.5",
+    "vuepress-plugin-cursor-effects": "^1.0.0",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-go-top": "^1.0.1",
     "vuepress-plugin-meting": "^0.0.4",
     "vuepress-plugin-ribbon": "^1.0.0"

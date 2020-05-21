@@ -1,7 +1,7 @@
 module.exports = {
-  title: "vuepress-lovely-plugins",
+  title: "moefy-vuepress",
   description: "Add some lovely plugins in your vuepress!",
-  base: "/vuepress-lovely-plugins/",
+  base: "/moefy-vuepress/",
 
   plugins: [
     // 彩带背景
@@ -66,7 +66,7 @@ module.exports = {
         "packages/meting"
       ]
     },
-    repo: "SigureMo/vuepress-lovely-plugins",
+    repo: "moefyit/moefy-vuepress",
     docsDir: "docs",
     docsBranch: "master"
   }
