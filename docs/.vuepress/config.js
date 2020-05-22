@@ -52,8 +52,7 @@ module.exports = {
 
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Packages", link: "/packages" }
+      { text: "Home", link: "/" }
     ],
     sidebarDepth: 1,
     sidebar: {
