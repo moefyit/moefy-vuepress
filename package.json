@@ -35,7 +35,7 @@
     "vuepress-plugin-cursor-effects": "^1.0.0",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-go-top": "^1.0.1",
-    "vuepress-plugin-meting": "^0.0.4",
+    "vuepress-plugin-meting": "^0.1.0",
     "vuepress-plugin-ribbon": "^1.0.0"
   }
 }
