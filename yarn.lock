@@ -7478,10 +7478,10 @@ vuepress-plugin-dynamic-title@^1.0.0:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-dynamic-title/-/vuepress-plugin-dynamic-title-1.0.0.tgz#867e7a8b821ad35ccfaaafc2358bc129817d422f"
   integrity sha512-CN1wtkPNG3shGzEFgqOa2dzojSle7SeAaf+Cw77Xmkv8jvB3wO5r2zXkIHTjiclQY1c5q5lE8h2A9vQaLdor2Q==
 
-vuepress-plugin-go-top@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-go-top/-/vuepress-plugin-go-top-1.0.1.tgz#d6871552f951b2e7da03b5a477a5e5296b6d4d9a"
-  integrity sha512-V4e1xdLKYMs7pwmUvvJNavZtZRmzGnFRsPqZ2IeCNrmvghxC9Ol9xb97Mi6P4cXwvYZCi4Sc5uLp7l81A7fctg==
+vuepress-plugin-go-top@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-go-top/-/vuepress-plugin-go-top-1.0.4.tgz#b2c359d85280e8737c65a43fde6e6d42953878af"
+  integrity sha512-VxYrZmvC9agXVOEzy1G7mJj23p17O7CVmcXhlaFtQ+J827OcIqNC1X646/gOI8Hfn8or17+J+8/Bg0ZSRyizEA==
 
 vuepress-plugin-meting@^0.1.0:
   version "0.1.0"
