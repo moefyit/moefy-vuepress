@@ -7483,17 +7483,17 @@ vuepress-plugin-go-top@^1.0.4:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-go-top/-/vuepress-plugin-go-top-1.0.4.tgz#b2c359d85280e8737c65a43fde6e6d42953878af"
   integrity sha512-VxYrZmvC9agXVOEzy1G7mJj23p17O7CVmcXhlaFtQ+J827OcIqNC1X646/gOI8Hfn8or17+J+8/Bg0ZSRyizEA==
 
-vuepress-plugin-meting@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-meting/-/vuepress-plugin-meting-0.1.0.tgz#56fb54de0bc411faae0aa2d12d0838a46e587ba6"
-  integrity sha512-Q2D4sq+V84DsyxteLCedPg9joERBOfq7+RHmRxeAAAUdoRjKfWnOjy4hjZr3aulEMoNrlAZPfEu08qREKJnG5A==
+vuepress-plugin-meting@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-meting/-/vuepress-plugin-meting-0.1.1.tgz#1a407ef9ed0f9c5f19bf2ad5edc6bc56ad7f59d0"
+  integrity sha512-mx49a0jYRpVbY2guHbA29ZiQ051+PmiQ5uEKXa4NAJE3rXhr2sJFx757eT2zK1Jyjr8DLVJp1wRk5zhLa35eIQ==
   dependencies:
     "@moefe/vue-aplayer" "^2.0.0-beta.5"
 
-vuepress-plugin-ribbon@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-ribbon/-/vuepress-plugin-ribbon-1.0.0.tgz#052e9ff0ad3b2b76da9a050b6ae17a6c60b0a39a"
-  integrity sha512-x1tlmMgo+KbAI/jXoLAbze7qZuH+9uZwZgvVYd6vPdQKXtvFqq8qxbRGF1MMdGBTTbpMP0zwfkqmqUVe1KLbLw==
+vuepress-plugin-ribbon@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-ribbon/-/vuepress-plugin-ribbon-1.0.2.tgz#2845674049939e1b2a4d285abc685abb8b5490ed"
+  integrity sha512-r9X3994eNsQtf/t7ArfuJsl8SUtuJtEMuIKfRWoUV2XLg7N43ypUnKwCSXkLXSVeBBnM4v9X7QwJJLqbFlMQ9A==
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
