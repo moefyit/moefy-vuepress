@@ -23,10 +23,9 @@
   },
   "homepage": "https://github.com/moefyit/vuepress-lovely-plugin#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "bash scripts/collect-docs.sh && vuepress dev docs",
-    "docs:build": "bash scripts/collect-docs.sh && vuepress build docs",
-    "deploy": "bash scripts/deploy.sh"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "serve": "vuepress build docs && npx serve docs/.vuepress/dist"
   },
   "devDependencies": {
     "vuepress": "^1.5.2"
