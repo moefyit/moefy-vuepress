@@ -24,8 +24,7 @@
   "homepage": "https://github.com/moefyit/vuepress-lovely-plugin#readme",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "serve": "vuepress build docs && npx serve docs/.vuepress/dist"
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "vuepress": "^1.5.3"
