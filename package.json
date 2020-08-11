@@ -28,7 +28,7 @@
     "serve": "vuepress build docs && npx serve docs/.vuepress/dist"
   },
   "devDependencies": {
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.5.3"
   },
   "dependencies": {
     "vuepress-plugin-cursor-effects": "^1.0.0",
