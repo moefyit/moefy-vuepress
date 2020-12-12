@@ -1,8 +1,6 @@
 {
   "name": "moefy-vuepress",
-  "version": "0.0.1",
   "description": "Add some lovely plugins in your vuepress!",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/moefyit/moefy-vuepress.git"
@@ -11,10 +9,6 @@
     "vuepress",
     "plugin",
     "lovely"
-  ],
-  "files": [
-    "package.json",
-    "README.md"
   ],
   "author": "SigureMo",
   "license": "MIT",
