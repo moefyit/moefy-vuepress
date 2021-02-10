@@ -1,11 +1,5 @@
 const path = require('path')
-const packages = [
-  'ribbon',
-  'cursor-effects',
-  'dynamic-title',
-  'go-top',
-  'meting'
-]
+const packages = ['ribbon', 'cursor-effects', 'dynamic-title', 'go-top', 'meting']
 
 module.exports = {
   title: 'moefy-vuepress',
@@ -19,16 +13,16 @@ module.exports = {
       {
         size: 90,
         opacity: 0.8,
-        zIndex: -1
-      }
+        zIndex: -1,
+      },
     ],
     // 鼠标特效插件
     [
       'cursor-effects',
       {
         size: 1.75,
-        shape: 'star'
-      }
+        shape: 'star',
+      },
     ],
     // 离开页面标题变化
     [
@@ -38,8 +32,8 @@ module.exports = {
         showText: '(ฅ>ω<*ฅ)欢迎回来！',
         hideIcon: '/failure.ico',
         hideText: '( ๑ˊ•̥▵•)੭₎₎不要走呀！',
-        recoverTime: 2000
-      }
+        recoverTime: 2000,
+      },
     ],
     // 悬挂小猫返回顶部
     ['go-top'],
@@ -50,34 +44,31 @@ module.exports = {
         meting: {
           server: 'netease',
           type: 'playlist',
-          mid: '2539599584'
+          mid: '2539599584',
         },
         aplayer: {
-          lrcType: 3
-        }
-      }
-    ]
+          lrcType: 3,
+        },
+      },
+    ],
   ],
 
   themeConfig: {
     nav: [{ text: 'Home', link: '/' }],
     sidebarDepth: 1,
     sidebar: {
-      '/': packages.map(package => `packages/${package}`)
+      '/': packages.map((package) => `packages/${package}`),
     },
     repo: 'moefyit/moefy-vuepress',
     docsDir: 'docs',
-    docsBranch: 'master'
+    docsBranch: 'master',
   },
 
   // 作为插件的额外路由
-  additionalPages: packages.map(package => {
+  additionalPages: packages.map((package) => {
     return {
       path: `/packages/${package}.html`,
-      filePath: path.resolve(
-        __dirname,
-        `../../packages/vuepress-plugin-${package}/README.md`
-      )
+      filePath: path.resolve(__dirname, `../../packages/vuepress-plugin-${package}/README.md`),
     }
-  })
+  }),
 }
