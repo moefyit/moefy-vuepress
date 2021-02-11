@@ -1,10 +1,10 @@
 {
-  "name": "moefy-vuepress",
+  "name": "moefy-vuepress-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "description": "Add some lovely plugins in your vuepress!",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/moefyit/moefy-vuepress.git"
-  },
   "keywords": [
     "vuepress",
     "plugin",
@@ -12,13 +12,10 @@
   ],
   "author": "SigureMo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/moefyit/moefy-vuepress/issues"
-  },
-  "homepage": "https://github.com/moefyit/vuepress-lovely-plugin#readme",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "batch-push": "bash scripts/batch-push.sh"
   },
   "devDependencies": {
     "vuepress": "^1.8.0"
