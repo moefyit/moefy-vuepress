@@ -18,7 +18,7 @@
     "batch-push": "bash scripts/batch-push.sh"
   },
   "devDependencies": {
-    "vuepress": "^1.8.0"
+    "vuepress": "^1.8.1"
   },
   "dependencies": {
     "vuepress-plugin-cursor-effects": "^1.0.0",
