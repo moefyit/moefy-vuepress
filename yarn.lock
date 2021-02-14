@@ -7620,33 +7620,6 @@ vuepress-plugin-container@^2.0.2:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-cursor-effects@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-cursor-effects/-/vuepress-plugin-cursor-effects-1.0.0.tgz#47bf74b4fe9fae923b2250ac18d15f5b3fddb6b7"
-  integrity sha512-4W61844jFi0L86wuBmLUnd9FEk32mD/ihcEo0nRTtCq0kkbqBEs02GJ3RkcpgIJmlxz20CrLxhljg3d3DfzC8Q==
-
-vuepress-plugin-dynamic-title@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-dynamic-title/-/vuepress-plugin-dynamic-title-1.0.0.tgz#867e7a8b821ad35ccfaaafc2358bc129817d422f"
-  integrity sha512-CN1wtkPNG3shGzEFgqOa2dzojSle7SeAaf+Cw77Xmkv8jvB3wO5r2zXkIHTjiclQY1c5q5lE8h2A9vQaLdor2Q==
-
-vuepress-plugin-go-top@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-go-top/-/vuepress-plugin-go-top-1.0.4.tgz#b2c359d85280e8737c65a43fde6e6d42953878af"
-  integrity sha512-VxYrZmvC9agXVOEzy1G7mJj23p17O7CVmcXhlaFtQ+J827OcIqNC1X646/gOI8Hfn8or17+J+8/Bg0ZSRyizEA==
-
-vuepress-plugin-meting@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-meting/-/vuepress-plugin-meting-0.2.1.tgz#52be7a6081f846a5f1a7aba7328d43c6d2b1ce95"
-  integrity sha512-6sQyjlskP1TJKUfKbwIwlxoBEytql+ZQvYxRa8m/GiXpqGSjrgDwYCAkadex9+yHbNFcCkEWM52/GDadgz+NNw==
-  dependencies:
-    "@moefe/vue-aplayer" "^2.0.0-beta.5"
-
-vuepress-plugin-ribbon@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-ribbon/-/vuepress-plugin-ribbon-1.0.2.tgz#2845674049939e1b2a4d285abc685abb8b5490ed"
-  integrity sha512-r9X3994eNsQtf/t7ArfuJsl8SUtuJtEMuIKfRWoUV2XLg7N43ypUnKwCSXkLXSVeBBnM4v9X7QwJJLqbFlMQ9A==
-
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.3.tgz#6eff2d4c186cca917cc9f7df2b0af7de7c8c6438"
