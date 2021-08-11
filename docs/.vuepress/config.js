@@ -41,6 +41,7 @@ module.exports = {
     [
       'meting',
       {
+        metingApi: 'https://api.injahow.cn/meting/',
         meting: {
           server: 'netease',
           type: 'playlist',

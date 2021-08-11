@@ -1,7 +1,7 @@
 commitAndPush() {
     commitMessage=$1
+    git pull --ff-only
     if [[ $(git status -s) ]];then
-        git pull --ff-only
         git add -A
         git commit -m "${commitMessage}"
         git push

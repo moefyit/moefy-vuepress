@@ -4,7 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "description": "Add some lovely plugins in your vuepress!",
+  "description": "Add some lovely plugins to your vuepress!",
   "keywords": [
     "vuepress",
     "plugin",
@@ -24,7 +24,7 @@
     "vuepress-plugin-cursor-effects": "^1.0.2",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-go-top": "^1.0.4",
-    "vuepress-plugin-meting": "^0.2.3",
+    "vuepress-plugin-meting": "^0.3.0",
     "vuepress-plugin-ribbon": "^1.0.4"
   }
 }
