@@ -62,7 +62,7 @@ module.exports = {
     },
     repo: 'moefyit/moefy-vuepress',
     docsDir: 'docs',
-    docsBranch: 'master',
+    docsBranch: 'main',
   },
 
   // 作为插件的额外路由
