@@ -1,4 +1,5 @@
-const path = require('path')
+import { resolve } from 'path'
+
 const packages = ['ribbon', 'cursor-effects', 'dynamic-title', 'go-top', 'meting']
 
 module.exports = {
@@ -58,7 +59,7 @@ module.exports = {
     nav: [{ text: 'Home', link: '/' }],
     sidebarDepth: 1,
     sidebar: {
-      '/': packages.map((package) => `packages/${package}`),
+      '/': packages.map((pkg) => `packages/${pkg}`),
     },
     repo: 'moefyit/moefy-vuepress',
     docsDir: 'docs',
@@ -66,10 +67,10 @@ module.exports = {
   },
 
   // 作为插件的额外路由
-  additionalPages: packages.map((package) => {
+  additionalPages: packages.map((pkg) => {
     return {
-      path: `/packages/${package}.html`,
-      filePath: path.resolve(__dirname, `../../packages/vuepress-plugin-${package}/README.md`),
+      path: `/packages/${pkg}.html`,
+      filePath: resolve(__dirname, `../../packages/vuepress-plugin-${pkg}/README.md`),
     }
   }),
 }
