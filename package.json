@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "pub": "pnpm -r publish --no-git-checks --access public",
     "batch-push": "bash scripts/batch-push.sh"
   },
   "devDependencies": {
