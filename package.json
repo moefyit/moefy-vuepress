@@ -1,9 +1,6 @@
 {
   "name": "moefy-vuepress-monorepo",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "description": "Add some lovely plugins to your vuepress!",
   "keywords": [
     "vuepress",
@@ -21,10 +18,10 @@
     "vuepress": "^1.9.7"
   },
   "dependencies": {
-    "vuepress-plugin-cursor-effects": "^1.0.2",
-    "vuepress-plugin-dynamic-title": "^1.0.0",
-    "vuepress-plugin-go-top": "^1.0.4",
-    "vuepress-plugin-meting": "^0.3.1",
-    "vuepress-plugin-ribbon": "^1.0.4"
+    "vuepress-plugin-cursor-effects": "workspace:^",
+    "vuepress-plugin-dynamic-title": "workspace:^",
+    "vuepress-plugin-go-top": "workspace:^",
+    "vuepress-plugin-meting": "workspace:^",
+    "vuepress-plugin-ribbon": "workspace:^"
   }
 }
