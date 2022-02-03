@@ -21,9 +21,9 @@ importers:
 
   packages/vuepress-plugin-cursor-effects:
     specifiers:
-      '@moefy-canvas/theme-popper': ^0.1.2
+      '@moefy-canvas/theme-popper': ^0.2.0
     dependencies:
-      '@moefy-canvas/theme-popper': 0.1.2
+      '@moefy-canvas/theme-popper': 0.2.0
 
   packages/vuepress-plugin-dynamic-title:
     specifiers: {}
@@ -1231,11 +1231,15 @@ packages:
     resolution: {integrity: sha512-jDlGVpy4H67RHUx1qKBTa2xDUKvOOI6J1YQvlc59sfjlUCWlnavyGqVzA+iWhBmyFfrKjByMnYDgs/Wqbth99g==}
     dev: false
 
-  /@moefy-canvas/theme-popper/0.1.2:
-    resolution: {integrity: sha512-ODaggR/XmgJiEhabGf57HiK+I9mn1O0eoDjN0FhULPMwya7FSes39VJL1o1s2xHfxZhE9++Ntf16JZB70qiYaw==}
+  /@moefy-canvas/core/0.2.0:
+    resolution: {integrity: sha512-b1VP1VTXba6fiYqQpQhSjNEYLLbeSRnZqSMk1h8i8cm1cB/zg8qcdlsgJvR40wPJEDo8MED/tJcdg8XjlRYsdg==}
+    dev: false
+
+  /@moefy-canvas/theme-popper/0.2.0:
+    resolution: {integrity: sha512-UXTeQyVhPFmjO2wYtaq3tu3a3SozFmQWGS5ueCTeT+naDbsMSQ0nqr0t3PbpPMxolGveYkdVY1hthRD1VNFKgg==}
     dependencies:
-      '@moefy-canvas/core': 0.1.2
-      '@moefy-canvas/utils': 0.1.2
+      '@moefy-canvas/core': 0.2.0
+      '@moefy-canvas/utils': 0.2.0
       ts-debounce: 2.3.0
     dev: false
 
@@ -1251,6 +1255,12 @@ packages:
     resolution: {integrity: sha512-nosqjX3mHW0NUVl3aHejuhwIO3/UWLcygiMIoVV+SOUMIKP6EKUUp5tZeafSNBgNZz1jdneau1EYAV2QIAw5EA==}
     dependencies:
       '@moefy-canvas/core': 0.1.2
+    dev: false
+
+  /@moefy-canvas/utils/0.2.0:
+    resolution: {integrity: sha512-Gk2KZWNXK0GxhV4PFbi7p9zLmkwl8pKiovNu3QvMl0zKLGUOi6OhSz9dzjGV+ezst9KMBcb/uPYLpK54EkY8MQ==}
+    dependencies:
+      '@moefy-canvas/core': 0.2.0
     dev: false
 
   /@mrmlnc/readdir-enhanced/2.2.1:
