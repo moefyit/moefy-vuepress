@@ -33,7 +33,7 @@ importers:
 
   packages/vuepress-plugin-meting:
     specifiers:
-      '@moefe/vue-aplayer': 2.0.0-beta.5
+      '@moefe/vue-aplayer': ^2.0.0-beta.5
     dependencies:
       '@moefe/vue-aplayer': 2.0.0-beta.5
 
