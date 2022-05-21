@@ -13,7 +13,8 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "pub": "pnpm -r publish --no-git-checks --access public",
-    "batch-push": "bash scripts/batch-push.sh"
+    "batch-push": "bash scripts/batch-push.sh",
+    "bump-deps": "pnpm -r up --latest"
   },
   "devDependencies": {
     "vuepress": "^1.9.7"
