@@ -1,8 +1,11 @@
-import { resolve } from 'path'
+import { dirname, resolve } from 'path'
+import { fileURLToPath } from 'url'
+
+const dir = dirname(fileURLToPath(import.meta.url))
 
 const packages = ['ribbon', 'cursor-effects', 'dynamic-title', 'go-top', 'meting']
 
-module.exports = {
+export default {
   title: 'moefy-vuepress',
   description: 'Add some lovely plugins in your vuepress!',
   base: '/moefy-vuepress/',
@@ -70,7 +73,7 @@ module.exports = {
   additionalPages: packages.map((pkg) => {
     return {
       path: `/packages/${pkg}.html`,
-      filePath: resolve(__dirname, `../../packages/vuepress-plugin-${pkg}/README.md`),
+      filePath: resolve(dir, `../../packages/vuepress-plugin-${pkg}/README.md`),
     }
   }),
 }
