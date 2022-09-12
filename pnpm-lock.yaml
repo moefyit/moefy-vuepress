@@ -23,9 +23,9 @@ importers:
 
   packages/vuepress-plugin-cursor-effects:
     specifiers:
-      '@moefy-canvas/theme-popper': ^0.3.3
+      '@moefy-canvas/theme-popper': ^0.5.0
     dependencies:
-      '@moefy-canvas/theme-popper': 0.3.3
+      '@moefy-canvas/theme-popper': 0.5.0
 
   packages/vuepress-plugin-dynamic-title:
     specifiers: {}
@@ -41,9 +41,9 @@ importers:
 
   packages/vuepress-plugin-ribbon:
     specifiers:
-      '@moefy-canvas/theme-ribbon': ^0.3.3
+      '@moefy-canvas/theme-ribbon': ^0.5.0
     dependencies:
-      '@moefy-canvas/theme-ribbon': 0.3.3
+      '@moefy-canvas/theme-ribbon': 0.5.0
 
 packages:
 
@@ -1283,30 +1283,30 @@ packages:
       vue: 2.6.14
     dev: false
 
-  /@moefy-canvas/core/0.3.3:
-    resolution: {integrity: sha512-kGLT382MeHtTDRRuo8BadQ/vzdwAsqJE12qGiL9whTackvXlkZhrO5We99B0QDERk4FEU6pAKzhH8AngzgoKYQ==}
+  /@moefy-canvas/core/0.5.0:
+    resolution: {integrity: sha512-SQzdS8ZVLfakMPyWF65Rawqjtu4Zc5qhqnBuTJTakV2oOGmYcWkbW8GSGMPXWuWpyJ/KFdHxthRpbIbNZbQcOQ==}
     dev: false
 
-  /@moefy-canvas/theme-popper/0.3.3:
-    resolution: {integrity: sha512-dP/aRxJ2GxtFrMqOUk0SB24pQQQADY2ofy2xT0/NBitD6Yma1htALOlCxFE9L8fRVEKWrW57SzZjiX8XQuqSDA==}
+  /@moefy-canvas/theme-popper/0.5.0:
+    resolution: {integrity: sha512-+zJWlcg7Me/BEhufbkrHasDLoVWfYKZZweyAVU4oYdu3P/ObzTPEKXssznbZZAuvmxGkfd6Su0y8ZragUmUBRw==}
     dependencies:
-      '@moefy-canvas/core': 0.3.3
-      '@moefy-canvas/utils': 0.3.3
+      '@moefy-canvas/core': 0.5.0
+      '@moefy-canvas/utils': 0.5.0
       ts-debounce: 4.0.0
     dev: false
 
-  /@moefy-canvas/theme-ribbon/0.3.3:
-    resolution: {integrity: sha512-jsU12mpWzo+/lq/kWU9atDnioUo1agnFDC1KRcx5zPHz6k2YcJODEmSp4nenz72NnzJiBgIC7dF9YYxsXTUfGQ==}
+  /@moefy-canvas/theme-ribbon/0.5.0:
+    resolution: {integrity: sha512-qs8cUDEe58ELPPt+eFFj486xHxIlBdegeEQOGm/nIF/efhnteu2OoYDFDkiUJ+anp2+vMMk0vFeq45YeDCRnXQ==}
     dependencies:
-      '@moefy-canvas/core': 0.3.3
-      '@moefy-canvas/utils': 0.3.3
+      '@moefy-canvas/core': 0.5.0
+      '@moefy-canvas/utils': 0.5.0
       ts-debounce: 4.0.0
     dev: false
 
-  /@moefy-canvas/utils/0.3.3:
-    resolution: {integrity: sha512-k0yqhmkMWv3jtRM1qxuKcGSYivm5j1BmgyCWzd2vtzUykZAceLTp9hLsVJcvQzO8CYL9Wi9oK9LJHauTnLjYqA==}
+  /@moefy-canvas/utils/0.5.0:
+    resolution: {integrity: sha512-LrCTK2RXY5suxe58bnMNa6/WOnK31qGhPdw8tBLu5QNKQ3abvYfljR6VVCHLZG4zcTRygM6ry60k/8MyZxseZA==}
     dependencies:
-      '@moefy-canvas/core': 0.3.3
+      '@moefy-canvas/core': 0.5.0
     dev: false
 
   /@mrmlnc/readdir-enhanced/2.2.1:
@@ -1748,7 +1748,7 @@ packages:
       url-loader: 1.1.2_webpack@4.46.0
       vue: 2.6.14
       vue-loader: 15.9.8_uaqtbhcjkszohy5wyotocmr54i
-      vue-router: 3.5.4
+      vue-router: 3.5.4_vue@2.6.14
       vue-server-renderer: 2.6.14
       vue-template-compiler: 2.6.14
       vuepress-html-webpack-plugin: 3.2.0_webpack@4.46.0
@@ -3175,7 +3175,7 @@ packages:
       lodash: ^4.17.20
       marko: ^3.14.4
       mote: ^0.2.0
-      mustache: ^4.0.1
+      mustache: ^3.0.0
       nunjucks: ^3.2.2
       plates: ~0.4.11
       pug: ^3.0.0
@@ -8876,8 +8876,12 @@ packages:
       - whiskers
     dev: true
 
-  /vue-router/3.5.4:
+  /vue-router/3.5.4_vue@2.6.14:
     resolution: {integrity: sha512-x+/DLAJZv2mcQ7glH2oV9ze8uPwcI+H+GgTgTmb5I55bCgY3+vXWIsqbYUzbBSZnwFHEJku4eoaH/x98veyymQ==}
+    peerDependencies:
+      vue: ^2
+    dependencies:
+      vue: 2.6.14
     dev: true
 
   /vue-server-renderer/2.6.14:

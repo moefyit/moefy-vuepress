@@ -9,6 +9,7 @@
   ],
   "author": "SigureMo",
   "license": "MIT",
+  "packageManager": "pnpm@7.11.0",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
