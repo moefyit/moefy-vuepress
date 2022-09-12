@@ -23,9 +23,9 @@ importers:
 
   packages/vuepress-plugin-cursor-effects:
     specifiers:
-      '@moefy-canvas/theme-popper': ^0.5.0
+      '@moefy-canvas/theme-popper': ^0.5.1
     dependencies:
-      '@moefy-canvas/theme-popper': 0.5.0
+      '@moefy-canvas/theme-popper': 0.5.1
 
   packages/vuepress-plugin-dynamic-title:
     specifiers: {}
@@ -41,9 +41,9 @@ importers:
 
   packages/vuepress-plugin-ribbon:
     specifiers:
-      '@moefy-canvas/theme-ribbon': ^0.5.0
+      '@moefy-canvas/theme-ribbon': ^0.5.1
     dependencies:
-      '@moefy-canvas/theme-ribbon': 0.5.0
+      '@moefy-canvas/theme-ribbon': 0.5.1
 
 packages:
 
@@ -1283,30 +1283,30 @@ packages:
       vue: 2.6.14
     dev: false
 
-  /@moefy-canvas/core/0.5.0:
-    resolution: {integrity: sha512-SQzdS8ZVLfakMPyWF65Rawqjtu4Zc5qhqnBuTJTakV2oOGmYcWkbW8GSGMPXWuWpyJ/KFdHxthRpbIbNZbQcOQ==}
+  /@moefy-canvas/core/0.5.1:
+    resolution: {integrity: sha512-YMExC80TMkEMRFipOQqH6aBLC0F4WhWaAkQszjIp0eNJu4dzNLVZ43FAT1g1QzW4DWoqZxij3oXm/yW3VE/67w==}
     dev: false
 
-  /@moefy-canvas/theme-popper/0.5.0:
-    resolution: {integrity: sha512-+zJWlcg7Me/BEhufbkrHasDLoVWfYKZZweyAVU4oYdu3P/ObzTPEKXssznbZZAuvmxGkfd6Su0y8ZragUmUBRw==}
+  /@moefy-canvas/theme-popper/0.5.1:
+    resolution: {integrity: sha512-Y1hzPThYhdCJ2VWaEUW3F0OaNC+B/8hN19Q628NRPEB+4wbvgv+3rlU6h2U8amU5lwd8A1aIhJunsFiOD8FsyA==}
     dependencies:
-      '@moefy-canvas/core': 0.5.0
-      '@moefy-canvas/utils': 0.5.0
+      '@moefy-canvas/core': 0.5.1
+      '@moefy-canvas/utils': 0.5.1
       ts-debounce: 4.0.0
     dev: false
 
-  /@moefy-canvas/theme-ribbon/0.5.0:
-    resolution: {integrity: sha512-qs8cUDEe58ELPPt+eFFj486xHxIlBdegeEQOGm/nIF/efhnteu2OoYDFDkiUJ+anp2+vMMk0vFeq45YeDCRnXQ==}
+  /@moefy-canvas/theme-ribbon/0.5.1:
+    resolution: {integrity: sha512-iqafD59gAZxX45XD5FK2QZ0A0VTgc1ju9UZpsEjRrLsqJKODb0OTHTPg8RSqL2cPuLm54WRsFis+8gRyP67YuA==}
     dependencies:
-      '@moefy-canvas/core': 0.5.0
-      '@moefy-canvas/utils': 0.5.0
+      '@moefy-canvas/core': 0.5.1
+      '@moefy-canvas/utils': 0.5.1
       ts-debounce: 4.0.0
     dev: false
 
-  /@moefy-canvas/utils/0.5.0:
-    resolution: {integrity: sha512-LrCTK2RXY5suxe58bnMNa6/WOnK31qGhPdw8tBLu5QNKQ3abvYfljR6VVCHLZG4zcTRygM6ry60k/8MyZxseZA==}
+  /@moefy-canvas/utils/0.5.1:
+    resolution: {integrity: sha512-k6c6faxQxmnUe+7YbjH3X9XMMTM8zkbjFvpnPvn92ep7yndOOZKAshkt9xg5GCG1JPOlhGqx8GMQKM4sAdysuQ==}
     dependencies:
-      '@moefy-canvas/core': 0.5.0
+      '@moefy-canvas/core': 0.5.1
     dev: false
 
   /@mrmlnc/readdir-enhanced/2.2.1:
