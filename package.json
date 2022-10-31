@@ -18,7 +18,7 @@
     "bump-deps": "pnpm -r up --latest"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
+    "@types/node": "^17.0.40",
     "vuepress": "^1.9.7"
   },
   "dependencies": {
