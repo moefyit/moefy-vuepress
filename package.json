@@ -18,8 +18,8 @@
     "bump-deps": "pnpm -r up --latest"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
-    "vuepress": "^1.9.8"
+    "@types/node": "^18.16.18",
+    "vuepress": "^1.9.9"
   },
   "dependencies": {
     "vuepress-plugin-cursor-effects": "workspace:^",
