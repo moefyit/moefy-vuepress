@@ -11,14 +11,15 @@
   "license": "MIT",
   "packageManager": "pnpm@8.10.0",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
     "pub": "pnpm -r publish --no-git-checks --access public",
     "batch-push": "bash scripts/batch-push.sh",
     "bump-deps": "pnpm -r up --latest"
   },
   "devDependencies": {
     "@types/node": "^18.16.18",
+    "cross-env": "^7.0.3",
     "vuepress": "^1.9.9"
   },
   "dependencies": {
