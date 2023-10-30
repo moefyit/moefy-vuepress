@@ -1,4 +1,7 @@
 // https://docs.renovatebot.com/configuration-options/
 {
   extends: ["github>SigureMo/renovate-config"],
+  "git-submodules": {
+    enabled: true,
+  },
 }
