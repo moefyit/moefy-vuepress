@@ -4,4 +4,5 @@
   "git-submodules": {
     enabled: true,
   },
+  ignoreDeps: ["vue", "vue-server-renderer", "vue-template-compiler"],
 }
