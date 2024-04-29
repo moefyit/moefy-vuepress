@@ -9,7 +9,7 @@
   ],
   "author": "SigureMo",
   "license": "MIT",
-  "packageManager": "pnpm@9.0.5",
+  "packageManager": "pnpm@9.0.6",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
