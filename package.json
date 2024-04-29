@@ -9,7 +9,7 @@
   ],
   "author": "SigureMo",
   "license": "MIT",
-  "packageManager": "pnpm@9.0.5",
+  "packageManager": "pnpm@9.0.6",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
@@ -31,9 +31,9 @@
   },
   "pnpm": {
     "overrides": {
-      "vue": "2.6.14",
-      "vue-server-renderer": "2.6.14",
-      "vue-template-compiler": "2.6.14"
+      "vue": "2.7.16",
+      "vue-server-renderer": "2.7.16",
+      "vue-template-compiler": "2.7.16"
     }
   }
 }
